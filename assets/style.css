@@ -1,0 +1,84 @@
+/* header css */
+
+.navbar {
+  display: flex;
+
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color: rgb(127, 188, 127);
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+}
+
+.navbar .nav-items ul {
+  list-style: none;
+  display: flex;
+}
+.navbar .nav-items ul li {
+  margin-left: 10px;
+}
+.navbar .nav-items ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+/*main css*/
+.main-container h2 {
+  text-align: center;
+
+  background-color: #3627db;
+  width: 315px;
+  height: 30px;
+
+  margin: 0 auto;
+  margin-top: 100px;
+  color: aliceblue;
+}
+.about {
+  background-color: #27db7b;
+  margin-top: 100px;
+}
+.about h3 {
+  padding-top: 60px;
+  text-align: center;
+  color: aliceblue;
+}
+.about p {
+  text-align: center;
+  color: aliceblue;
+}
+.memmber {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+.memmber h3 {
+  margin-top: 50px;
+}
+.memmber p {
+  margin-bottom: 20px;
+}
+.box {
+  justify-content: space-between;
+  display: flex;
+}
+.item {
+  width: 250px;
+  height: 130px;
+  background-color: #3627db;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin: 2px;
+}
+.item1 {
+  background-color: rgb(15, 101, 63);
+}
+.item3 {
+  background-color: red;
+}
